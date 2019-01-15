@@ -1,0 +1,6 @@
+Via l'interface graphique :
+Cliquer sur changer d'utilisateur dans le menu en haut a droite, choisir le user
+correspond, se loger avec le mot de passe.
+
+Via ssh:
+su user

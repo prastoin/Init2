@@ -1,0 +1,43 @@
+lsa-utils           K01avahi-daemon  K01gdm3        K01networking       K01saned
+K01apache2              K01bluetooth     K01hwclock.sh  K01network-manager  K01speech-dispatcher
+K01apache-htcacheclean  K01cups-browsed  K01minissdpd   K01rsyslog          K01unattended-upgrades
+
+/etc/rc1.d:
+K01alsa-utils           K01avahi-daemon  K01cups-browsed  K01network-manager  K01speech-dispatcher
+K01apache2              K01bluetooth     K01gdm3          K01rsyslog
+K01apache-htcacheclean  K01cups          K01minissdpd     K01saned
+
+/etc/rc2.d:
+K01apache-htcacheclean  S01bluetooth         S01cups-browsed  S01network-manager  S01speech-dispatcher
+S01anacron              S01console-setup.sh  S01dbus          S01rsync            S01ssh
+S01apache2              S01cron              S01gdm3          S01rsyslog          S01unattended-upgrades
+S01avahi-daemon         S01cups              S01minissdpd     S01saned
+
+/etc/rc3.d:
+K01apache-htcacheclean  S01bluetooth         S01cups-browsed  S01network-manager  S01speech-dispatcher
+S01anacron              S01console-setup.sh  S01dbus          S01rsync            S01ssh
+S01apache2              S01cron              S01gdm3          S01rsyslog          S01unattended-upgrades
+S01avahi-daemon         S01cups              S01minissdpd     S01saned
+
+/etc/rc4.d:
+K01apache-htcacheclean  S01bluetooth         S01cups-browsed  S01network-manager  S01speech-dispatcher
+S01anacron              S01console-setup.sh  S01dbus          S01rsync            S01ssh
+S01apache2              S01cron              S01gdm3          S01rsyslog          S01unattended-upgrades
+S01avahi-daemon         S01cups              S01minissdpd     S01saned
+
+/etc/rc5.d:
+K01apache-htcacheclean  S01bluetooth         S01cups-browsed  S01network-manager  S01speech-dispatcher
+S01anacron              S01console-setup.sh  S01dbus          S01rsync            S01ssh
+S01apache2              S01cron              S01gdm3          S01rsyslog          S01unattended-upgrades
+S01avahi-daemon         S01cups              S01minissdpd     S01saned
+
+/etc/rc6.d:
+K01alsa-utils           K01avahi-daemon  K01gdm3        K01networking       K01saned
+K01apache2              K01bluetooth     K01hwclock.sh  K01network-manager  K01speech-dispatcher
+K01apache-htcacheclean  K01cups-browsed  K01minissdpd   K01rsyslog          K01unattended-upgrades
+
+/etc/rcS.d:
+S01alsa-utils  S01keyboard-setup.sh  S01networking  S01procps  S01x11-common
+S01hwclock.sh  S01kmod               S01pppd-dns    S01udev
+
+Se sont des daemons
